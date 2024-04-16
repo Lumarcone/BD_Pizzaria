@@ -1,5 +1,5 @@
 # Transforme o modelo conceitual em modelo lógico:
-![image](https://github.com/Lumarcone/BD_Pizzaria/assets/137897667/e1531a58-87e7-48ec-8b93-ce3794b31f2d)
+![image](https://github.com/Lumarcone/BD_Pizzaria/assets/137897667/29310294-4a93-457d-be08-3a2bac4d2400)
 
 # Escreva o script SQL que cria o banco de dados:
 
@@ -131,7 +131,7 @@ INSERT INTO Receita (id_Receita, Instruções, Autor) VALUES
 ---------------------------------------------
 
 
-INSERT INTO Embalagem (Material, Tamanho, Preço, Id_embalagem) VALUES
+ INSERT INTO Embalagem (Material, Tamanho, Preço, Id_embalagem) VALUES
 ('Papelão', '30x30 cm', 5.99, 1),
 ('Plástico', '20x20 cm', 3.49, 2),
 ('Alumínio', '40x40 cm', 7.99, 3),
@@ -162,7 +162,7 @@ INSERT INTO Embalagem (Material, Tamanho, Preço, Id_embalagem) VALUES
 ('Papelão', '70x70 cm', 13.99, 28),
 ('Plástico', '60x60 cm', 10.49, 29),
 ('Alumínio', '100x100 cm', 23.99, 30);
-------------------------------------------------
+
 
 
 INSERT INTO Pizzaiolo (id_Pizzaiolo, Nome, Salário) VALUES
@@ -200,6 +200,7 @@ INSERT INTO Pizzaiolo (id_Pizzaiolo, Nome, Salário) VALUES
 
 
 ----------------------------------------------
+
 INSERT INTO Pizza (id_Pizza, Sabor, preco_pizza, descricao, Ingredientes, Id_Receita, Id_embalagem, Id_pizzaiolo) VALUES
 (1, 'Margherita', 25.99, 'Clássica pizza italiana com molho de tomate, queijo mussarela e folhas de manjericão fresco.', 'Tomate, mussarela, manjericão', 1, 1, 1),
 (2, 'Pepperoni', 28.99, 'Pizza com molho de tomate, queijo mussarela e pepperoni fatiado.', 'Tomate, mussarela, pepperoni', 1, 2, 2),
